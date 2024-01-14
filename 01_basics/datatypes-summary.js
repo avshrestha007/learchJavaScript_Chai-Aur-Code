@@ -38,3 +38,25 @@ console.log(typeof bigNumber);
 console.log(typeof arr);
 console.log(typeof obj);
 console.log(typeof myFunction);
+
+// Stack (Primitive), Heap (Non-Primitive)
+
+let myYoutubename = "Avinash"
+
+let anotherName = myYoutubename
+anotherName = "Shrestha"
+
+console.log(myYoutubename);
+console.log(anotherName);
+
+let userOne = {
+    email: "user@google.com",
+    name: "xyz"
+}
+
+let userTwo = userOne
+
+userTwo.email = "avshrestha@gmail.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
