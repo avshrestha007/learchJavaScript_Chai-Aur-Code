@@ -13,3 +13,15 @@ let myCreatedDate1 = new Date(2023, 0, 23, 5, 3)
 let myCreatedDate2 = new Date("02-22-2023")
 // console.log(myCreatedDate2.toLocaleString());
 
+let myTimeStamp = Date.now()
+// console.log(myTimeStamp);
+// console.log(myCreatedDate2.getTime());
+// console.log(Math.floor(Date.now()/1000));
+
+let newDate = new Date()
+// console.log(newDate.getDate());
+// console.log(newDate.getMonth() + 1);
+
+newDate.toLocaleString('default',{
+    weekday: "long"
+})
